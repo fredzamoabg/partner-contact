@@ -18,4 +18,5 @@
     "depends": ["base"],
     "data": ["views/res_partner_view.xml"],
     "development_status": "Production/Stable",
+    "pre_init_hook": "module_migration",
 }
