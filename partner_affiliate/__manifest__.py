@@ -5,7 +5,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 {
     "name": "Partner Affiliates",
-    "version": "14.0.1.0.1",
+    "version": "14.0.1.0.2",
     "author": "Camptocamp, "
     "Tecnativa, "
     "brain-tec AG, "
@@ -18,4 +18,5 @@
     "depends": ["base"],
     "data": ["views/res_partner_view.xml"],
     "development_status": "Production/Stable",
+    "pre_init_hook": "module_migration",
 }
